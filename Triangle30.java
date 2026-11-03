@@ -14,9 +14,18 @@ public class Triangle30 {
                 j++;
             }
             System.out.println();
-            i++;
+            i++;    
+        }
+        int j = n;
+        while (j >= 1) {
+            int k = 1;
+            while (k <= j) {
+                System.out.print("*");
+                k++;
+            }
+            System.out.println();
+            j--;
         }
         sc.close();
     }
-    
 }
